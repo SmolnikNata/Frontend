@@ -1,0 +1,33 @@
+
+
+
+h2{
+    
+    font-size: 17px;
+    margin-left: 85px;
+    margin-top: 27px;
+}
+ol{
+    margin:20px 0 0 90px; 
+    font-size: 17px;
+}
+.pink{
+    font-weight: bold;
+    color: red;
+    width: 400px;
+    height: 200px;
+    background-color: pink;
+    margin: 45px 0 0 50px;
+}
+h3{
+    text-decoration: underline; 
+    font-size: 24px; 
+}
+ 
+
+p{
+    font-weight: bold;
+    font-size: 19px; 
+    padding-top: 5px;
+}    
+
