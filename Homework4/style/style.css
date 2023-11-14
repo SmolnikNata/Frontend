@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.block1{
+    width: 600px;
+    height: 120px;
+    margin: 5px 0 15px 20px;
+    border: 2px solid black;
+    display: flex;
+}
+.b1{
+    border: 2px solid red;
+    width: 40px;
+    height: 40px;
+    margin: 40px 20px 0px 20px;
+}
+.b2{
+    border: 2px solid blue;
+    width: 40px;
+    height: 40px;
+    margin: 40px 20px 0 0;   
+}
+.b3{
+    border: 2px solid green;
+    width: 40px;
+    height: 40px;
+    margin: 40px 20px 0px 0px;
+}
+.block2{
+    width: 600px;
+    height: 120px;
+    margin: 5px 0 15px 20px;
+    position: relative;
+    border: 2px solid black;   
+}
+.b4{
+    border: 2px solid red;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+.b5{
+    border: 2px solid blue;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 30px;
+    top: 32px;
+}
+.b6{
+    border: 2px solid green;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 56px;
+    top: 57px;
+}
+.block3{
+    width: 600px;
+    height: 120px;
+    margin: 5px 0 15px 20px;
+    position: relative;
+    border: 2px solid black;
+}
+.block3>div{
+    width: 40px;
+    height: 40px; 
+}
+.b7{
+    background-color: red;
+    margin: 5px;
+}
+.b8{
+    background-color: blue;
+    position: absolute;
+    left: 30px;
+    top: 32px;
+}
+.b9{
+    background-color: green;
+    position: absolute;
+    left: 56px;
+    top: 57px;
+}
+.b10{
+    background-color: red;
+    margin: 5px;
+}
+.b11{
+    background-color: blue;
+    position: absolute;
+    z-index: 1;
+    left: 30px;
+    top: 32px;
+}
+.b12{
+    background-color: green;
+    position: absolute;
+    left: 56px;
+    top: 57px;
+}
+.b13{
+    background-color: red;
+    margin: 5px;
+    position: absolute;
+    z-index: 2;
+}
+.b14{
+    background-color: blue;
+    position: absolute;
+    left: 30px;
+    top: 32px;
+}
+.b15{
+    background-color: green;
+    position: absolute;
+    left: 56px;
+    top: 57px;
+}
+
+.b16{
+    background-color: red;
+    margin: 5px;
+    position: absolute;
+    z-index: 2;
+}
+.b17{
+    background-color: blue;
+    position: absolute;
+    z-index: 1;
+    left: 30px;
+    top: 32px;
+}
+.b18{
+    background-color: green;
+    position: absolute;
+    left: 56px;
+    top: 57px;
+}

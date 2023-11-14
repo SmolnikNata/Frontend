@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    text-decoration: none;
+}
+
+.char{
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0;
+    margin-left: 0;
+    padding: 10px;
+}
+
+p, h1{
+    margin: 10px 0 10px 40px;
+}
